@@ -1,0 +1,13 @@
+Problema 1: entrada vs. tiempo
+   Entrada n |   Mediana (segundos)
+-----------------------------------
+           1 |             0.011137
+          10 |             0.011140
+         100 |             0.012747
+        1000 |             0.012018
+       10000 |             0.102865
+      100000 |            27.516721
+     1000000 |       Tiempo agotado
+
+Limite por ejecucion: 100 segundos.
+Mediana de 5 ejecuciones por entrada; calentamiento excluido.

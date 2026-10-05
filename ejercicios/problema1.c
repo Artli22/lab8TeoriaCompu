@@ -3,8 +3,6 @@
 #include "entrada.h"
 
 static uint64_t function(int n) {
-    /* volatile conserva los incrementos al compilar con optimizaciones.
-       uint64_t evita el desbordamiento de int para las entradas del laboratorio. */
     volatile uint64_t counter = 0;
     int i, j, k;
     for (i = n / 2; i <= n; i++) {
